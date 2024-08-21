@@ -24,13 +24,9 @@ A secure and efficient Django-based web application designed to manage your pass
 ### Clone the Repository
 ```bash
 git clone https://github.com/ahmadchughtai21/Password-Manager.git
-cd Password-Manager
 ```
 
-### Install Dependencies
-```bash
-pip install os
-```
+[Download manually if not working](https://github.com/ahmadchughtai21/Password-Manager.git)
 
 ## Setup the Application
 For first-time setup, run `setup.pyz` located in the main directory.

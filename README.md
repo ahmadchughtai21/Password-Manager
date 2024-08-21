@@ -22,7 +22,7 @@ This is a Django-based web application for managing passwords. It provides featu
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/ahmadchughtai21/Password-Manager.git
-   cd password-management-app
+   cd ./Password-Manager
    ```
 
 2. **Set Up Virtual Environment**

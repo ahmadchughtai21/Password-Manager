@@ -1,64 +1,52 @@
+Password Manager
 # Password Manager
 
-This is a Django-based web application for managing passwords. It provides features to generate, save, view, delete, and update passwords securely. The application is designed to use encryption for storing passwords and includes functionalities for setting up a master password and managing saved credentials.
+A secure and efficient Django-based web application designed to manage your passwords. This tool allows you to generate, save, view, delete, and update passwords with robust encryption, ensuring your credentials are kept safe. The application supports master password authentication and is built with a modern, responsive UI using Tailwind CSS.
 
 ## Features
-
-- **Sign Up / Log In**: Secure authentication using a master password.
-- **Password Generation**: Create strong, customizable passwords.
-- **Save Passwords**: Store passwords securely with encryption.
-- **View Passwords**: Display saved passwords (decrypted on the fly).
-- **Delete Passwords**: Remove passwords from storage.
-- **Change Master Password**: Update the master password for accessing the app.
+- Sign Up / Log In: Secure your account with a master password, required for all subsequent access.
+- Password Generation: Generate strong, customizable passwords to enhance your online security.
+- Save Passwords: Encrypt and securely store passwords with their associated website and username.
+- View Passwords: Easily decrypt and view your saved passwords when needed.
+- Delete Passwords: Remove outdated or unused passwords from your storage.
+- Change Master Password: Update your master password to maintain account security.
 
 ## Technology Stack
+- Backend: Django (Python)
+- Frontend: HTML, CSS (Tailwind CSS)
 
-- **Backend**: Django (Python)
-- **Frontend**: HTML, CSS (Tailwind CSS)
+## Prerequisites
+- Python & Pip: Ensure that Python and pip are installed on your computer. This program relies on Python and pip for its execution.
+- Git: Ensure Git is installed to clone the repository. If Git is not installed, you can download the project manually from this GitHub repository.
 
 
 ## Installation
+### Clone the Repository
+```bash
+git clone https://github.com/ahmadchughtai21/Password-Manager.git
+cd Password-Manager
+```
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/ahmadchughtai21/Password-Manager.git
-   cd ./Password-Manager
-   ```
+### Install Dependencies
+```bash
+pip install os
+```
 
-2. **Set Up Virtual Environment**
+## Setup the Application
+For first-time setup, run `setup.pyz` located in the main directory.
 
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
-   ```
-
-3. **Install Dependencies**
-
-   ```bash
-      pip install -r requirements.txt
-   ```
-   
-4. **Run Server**
-
-   ```bash
-      python manage.py runserver
-   ```
-   Open your web browser and navigate to http://127.0.0.1:8000 to start using the application.
-   
+## Run the Application
+After setup, use `run.pyz` to start the program. It will automatically open in your default web browser.
 
 ## Usage
-
-- **Sign Up**: Create an account by setting up a master password.
-- **Log In**: Access your account using the master password.
-- **Generate Password**: Use the form to generate a secure password based on specified criteria.
-- **Save Password**: Store your passwords along with the associated website and username.
-- **View Passwords**: View a list of saved passwords. Passwords are decrypted when displayed.
-- **Delete Password**: Remove passwords from your list.
-- **Change Master Password**: Update your master password.
+- Sign Up: Create your account by setting a master password.
+- Log In: Use the master password to access your account.
+- Generate Password: Utilize the built-in form to create secure passwords based on your chosen criteria.
+- Save Password: Store passwords along with their corresponding website and username securely.
+- View Passwords: Access a decrypted list of your saved passwords.
+- Delete Password: Easily remove unwanted passwords from your account.
+- Change Master Password: Keep your account secure by regularly updating the master password.
 
 ## Notes
-
-- Passwords are encrypted before saving to ensure security.
-- Tailwind CSS is used for styling to create a responsive and modern UI.
-
-
+- All passwords are encrypted before being saved, ensuring maximum security.
+- The application's frontend is styled using Tailwind CSS for a modern, responsive user interface.

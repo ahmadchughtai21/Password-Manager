@@ -1,0 +1,10 @@
+import os
+
+if os.name == "nt":
+    os.system("env\\Scripts\\activate")
+else:
+    os.system("source env/bin/activate")
+
+os.system("start http://127.0.0.1:8000")
+os.system("python manage.py runserver")
+

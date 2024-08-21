@@ -48,7 +48,7 @@ After setup, use `run.pyz` to start the program. It will automatically open in y
 - The application's frontend is styled using Tailwind CSS for a modern, responsive user interface.
 
 ## Screenshots!
-[Screenshot 2024-08-21 235806](https://github.com/user-attachments/assets/05c4f964-f24c-462d-9c3a-795c9d2c33c1)
+![Screenshot_22-8-2024_0423_127 0 0 1](https://github.com/user-attachments/assets/f9390098-3ba7-4f3c-b544-5083fc818893)
 ![Screenshot_21-8-2024_235850_127 0 0 1](https://github.com/user-attachments/assets/a8742d07-3d8b-4daf-bfe8-dfeeabd1c786)
 ![Screenshot_22-8-2024_0054_127 0 0 1](https://github.com/user-attachments/assets/86883da0-af5c-4cb0-be21-75a43ff0ed5d)
 ![Screenshot_22-8-2024_0139_127 0 0 1](https://github.com/user-attachments/assets/f697e9f5-0cc8-494c-a40a-751770a1d6b4)

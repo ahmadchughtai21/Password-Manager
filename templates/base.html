@@ -1,0 +1,33 @@
+{% load static tailwind_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% tailwind_css %}
+  </head>
+  <body class="bg-slate-800 min-h-screen flex flex-col">
+    <nav
+      class="bg-slate-500 h-16 shadow-md rounded-lg m-4 flex items-center justify-center"
+    >
+      <h1 class="text-3xl text-white font-bold">Password Manager</h1>
+    </nav>
+
+    <main class="flex-grow">
+      {% block content %} {% comment %} page data {% endcomment %} {% endblock content %}
+    </main>
+
+    <footer class="bg-gray-700 p-4 mt-8">
+      <div class="text-center">
+        <a
+          href="https://github.com/ahmadchughtai21"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm text-gray-400 hover:text-gray-100 underline"
+          >Made by Ahmad Chughtai</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

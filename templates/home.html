@@ -1,0 +1,63 @@
+{% extends "base.html" %} {% block content %}
+
+<head>
+  <title>{{title}}</title>
+</head>
+<body class="bg-slate-800 min-h-screen flex justify-center items-center">
+  <div
+    class="bg-gray-900 rounded-lg shadow-lg p-8 w-full max-w-md mx-auto text-center mt-4 mb-2"
+  >
+    <h1 class="text-white text-4xl mb-6 font-semibold">Main Menu</h1>
+    {% if error %}
+    <div class="bg-gray-800 text-white text-xl font-semibold p-4 mb-6">
+      <h2 class="text-xl mb-2">Update: {{ error }}</h2>
+    </div>
+    {% endif %}
+
+    <ul class="space-y-4">
+      <li>
+        <a
+          href="/save_password"
+          class="block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition"
+          >Save Password</a
+        >
+      </li>
+      <li>
+        <a
+          href="/generate_password"
+          class="block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition"
+          >Generate Password</a
+        >
+      </li>
+      <li>
+        <a
+          href="/view_passwords"
+          class="block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition"
+          >View Passwords</a
+        >
+      </li>
+      <li>
+        <a
+          href="/delete_password"
+          class="block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition"
+          >Delete Password</a
+        >
+      </li>
+      <li>
+        <a
+          href="/change_master_password"
+          class="block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition"
+          >Change Master Password</a
+        >
+      </li>
+      <li>
+        <a
+          href="/log_out"
+          class="block bg-red-600 text-white py-2 px-4 rounded hover:bg-red-700 transition"
+          >Logout</a
+        >
+      </li>
+    </ul>
+  </div>
+</body>
+{% endblock content %}
